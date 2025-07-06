@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap");
+
+:root {
+  --preto: #0d0d0d;
+  --roxinho: #ca6bf2;
+  --branco: #f2eae4;
+  --roxo-destaque: #a75cf2;
+  --roxo-escuro: #270f40;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+nav {
+}
+
+body {
+  text-align: center;
+  background-color: var(--preto);
+  color: var(--branco);
+  font-family: "Livvic", sans-serif;
+  transition: all 0.3s;
+}
+
+h1 {
+  color: var(--roxinho);
+  margin: 15px 0;
+}
+
+#containerTemas {
+}
+
+#temas {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+li {
+  list-style: none;
+  cursor: pointer;
+  color: var(--branco);
+  font-size: 24px;
+}
+
+input {
+  cursor: pointer;
+}
+
+#tags {
+  width: 25rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 15px auto;
+  gap: 15px;
+}
+
+.tagsCategorias {
+}
+
+#botaoGerador {
+  cursor: pointer;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 18px;
+  color: var(--roxo-escuro);
+  background-color: var(--roxinho);
+  margin-bottom: 15px;
+}
+
+#localPoema {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25rem;
+  background-color: #c96bf217;
+  padding: 15px;
+  border-radius: 15px;
+  margin: 0 auto;
+}
+
+#botaoCopiar {
+  cursor: pointer;
+  padding: 10px 15px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 18px;
+  color: var(--roxo-escuro);
+  background-color: var(--roxinho);
+}
+
+.geralLM {
+  background-color: var(--branco);
+  color: var(--preto);
+  transition: all 0.3s;
+}
+
+.botaoLM {
+  color: var(--roxinho);
+  transition: all 0.3s;
+}
